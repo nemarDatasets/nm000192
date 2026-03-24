@@ -1,0 +1,41 @@
+{
+	"TaskName": "p300",
+	"Manufacturer": "Brain Products",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 200.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "downsampling, lowpass filtering, epoching, baseline correction, artifact rejection"
+		}
+	},
+	"RecordingDuration": 11386.195,
+	"RecordingType": "continuous",
+	"EEGReference": "left mastoid",
+	"EEGGround": "forehead",
+	"EEGPlacementScheme": "10-10 system",
+	"EEGChannelCount": 64,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Brain Products",
+	"CapManufacturer": "Brain Products",
+	"CapManufacturersModelName": "actiCAP",
+	"SoftwareVersions": "n/a",
+	"HardwareFilters": {
+		"Bandpass": {
+			"HighCutoffFrequency": 42.0,
+			"Type": "Chebyshev"
+		}
+	},
+	"TaskDescription": "[auditory oddball] Multi-streamed musical oddball paradigm with three concurrent instruments. Participants attended to one instrument and counted deviants while ignoring the other two instruments. Two music conditions tested: Synth-Pop (bass, drums, keyboard) and Jazz (double-bass, piano, flute). Trial duration: 40.0s.",
+	"Instructions": "Attend to cued instrument, count the number of deviants in that instrument, ignore other two instruments, maintain fixation on cross, minimize eye movements",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/tsk_GxjZBNiJorj1K/",
+	"InstitutionName": "Technische Universit\u00e4t Berlin",
+	"InstitutionAddress": "Berlin, Germany",
+	"InstitutionalDepartmentName": "Neurotechnology Group; Bernstein Focus: Neurotechnology",
+	"SubjectArtefactDescription": "Impedance kept below 20.0 kOhm",
+	"DeviceSerialNumber": "n/a",
+	"Description": "Multi-streamed musical oddball paradigm for auditory BCI. Each of three concurrent instruments has its own standard and deviant patterns. Participants selectively attend to one instrument to detect deviants.",
+	"MISCChannelCount": 0
+}
