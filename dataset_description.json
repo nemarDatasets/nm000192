@@ -1,49 +1,51 @@
 {
-	"Name": "BNCI 2015-006 Music BCI dataset",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-NC-ND-4.0",
-	"Authors": [
-		"M S Treder",
-		"H Purwins",
-		"D Miklody",
-		"I Sturm",
-		"B Blankertz"
-	],
-	"Acknowledgements": "We acknowledge financial support by the German Bundesministerium f\u00fcr Bildung und Forschung (Grant Nos. 16SV5839 and 01GQ0850).",
-	"Funding": [
-		"German Bundesministerium f\u00fcr Bildung und Forschung (Grant Nos. 16SV5839 and 01GQ0850)"
-	],
-	"EthicsApprovals": [
-		"Declaration of Helsinki"
-	],
-	"ReferencesAndLinks": [
-		"https://github.com/bbci/bbci_public/blob/master/doc/index.markdown",
-		"10.1088/1741-2560/11/2/026009"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1088/1741-2560/11/2/026009",
-			"URL": "https://github.com/bbci/bbci_public/blob/master/doc/index.markdown"
-		}
-	],
-	"Keywords": [
-		"brain\u2013computer interface",
-		"EEG",
-		"auditory",
-		"music",
-		"attention",
-		"oddball paradigm",
-		"P300"
-	],
-	"PublicationYear": 2014
+  "Name": "BNCI 2015-006 Music BCI dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-ND-4.0",
+  "Authors": [
+    "M S Treder",
+    "H Purwins",
+    "D Miklody",
+    "I Sturm",
+    "B Blankertz"
+  ],
+  "Acknowledgements": "We acknowledge financial support by the German Bundesministerium für Bildung und Forschung (Grant Nos. 16SV5839 and 01GQ0850).",
+  "Funding": [
+    "German Bundesministerium für Bildung und Forschung (Grant Nos. 16SV5839 and 01GQ0850)"
+  ],
+  "EthicsApprovals": [
+    "Declaration of Helsinki"
+  ],
+  "ReferencesAndLinks": [
+    "https://github.com/bbci/bbci_public/blob/master/doc/index.markdown",
+    "10.1088/1741-2560/11/2/026009"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1088/1741-2560/11/2/026009",
+      "URL": "https://github.com/bbci/bbci_public/blob/master/doc/index.markdown"
+    }
+  ],
+  "Keywords": [
+    "brain–computer interface",
+    "EEG",
+    "auditory",
+    "music",
+    "attention",
+    "oddball paradigm",
+    "P300"
+  ],
+  "PublicationYear": 2014,
+  "DatasetDOI": "10.82901/nemar.nm000192",
+  "Version": "1.0.0"
 }
