@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000192-blue)](https://doi.org/10.82901/nemar.nm000192)
+
 # BNCI 2015-006 Music BCI dataset
 
 BNCI 2015-006 Music BCI dataset.
