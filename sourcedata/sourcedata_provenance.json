@@ -1,0 +1,70 @@
+{
+ "dataset": "nm000192",
+ "moabb_class": "BNCI2015_006",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.BNCI2015_006.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-bnci-data/bbci/BNCIHorizon2020-MusicBCI",
+ "license": "CC-BY-NC-ND-4.0",
+ "doi": "10.1088/1741-2560/11/2/026009",
+ "naming": "upstream_filenames_restored",
+ "n_files": 11,
+ "total_bytes": 7974667063,
+ "files": [
+  {
+   "file": "musicbci_VPaak.mat",
+   "bytes": 580577134,
+   "sha256": "885880c02e91a8370cb5c2f3d3f01caed059aab603ae25cb37a856334733fcb5"
+  },
+  {
+   "file": "musicbci_VPaan.mat",
+   "bytes": 825323164,
+   "sha256": "ee9679110c66d572d1767e532fcba7316ff28eb8931e6f198e2c04e1c38da915"
+  },
+  {
+   "file": "musicbci_VPaap.mat",
+   "bytes": 864982991,
+   "sha256": "fbdccd6368ed436249a146f75b77e14c125fdc64ae2a4d5cf350ea3aeff011f9"
+  },
+  {
+   "file": "musicbci_VPaaq.mat",
+   "bytes": 582378196,
+   "sha256": "9bcb115cb548586a5db859e494ca777aa0379927844e7c7ee684319484e6ba5d"
+  },
+  {
+   "file": "musicbci_VPaar.mat",
+   "bytes": 832564590,
+   "sha256": "0fd679c984491b146eabed262fa3072d6f4acc0badc6a9e58e8233cc710cda07"
+  },
+  {
+   "file": "musicbci_VPaas.mat",
+   "bytes": 645225205,
+   "sha256": "f9cb4ec851e69eea231ba2fff7c2c66d1e32f2ef3fcd1021bc3fde8c9d4f2931"
+  },
+  {
+   "file": "musicbci_VPaat.mat",
+   "bytes": 832292585,
+   "sha256": "84afc306408c5185a00f8877d6880cb94fc29d90a0f6538a407c767e28b5c16a"
+  },
+  {
+   "file": "musicbci_VPgcc.mat",
+   "bytes": 633100532,
+   "sha256": "c82ff2c6951bbd308fb370eb2d09f8b99b0034091f4ab814ca9eb3da63231038"
+  },
+  {
+   "file": "musicbci_VPgeo.mat",
+   "bytes": 926372528,
+   "sha256": "3f089ce22752c9b6414143f8fd73bfc3b34d45c9b2c63e4d473525a473c0feae"
+  },
+  {
+   "file": "musicbci_VPjaq.mat",
+   "bytes": 676998709,
+   "sha256": "f76c98476ad93abef4af91171f7f6a92f36480cf39f7c4546314670945e57d45"
+  },
+  {
+   "file": "musicbci_VPjat.mat",
+   "bytes": 574851429,
+   "sha256": "753ed0a12ae8148303731178dda3ad74d2c88c8cf1e694240bf2ac2173751862"
+  }
+ ]
+}
