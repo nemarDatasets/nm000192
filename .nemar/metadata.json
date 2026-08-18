@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-006 Music BCI dataset",
-  "description": "This dataset comprises EEG recordings from 11 healthy participants performing a multi-streamed musical oddball task designed to investigate auditory attention and brain-computer interface applications. Participants selectively attended to one of three concurrent instruments in polyphonic music clips while detecting deviant patterns, with EEG signals recorded at 64 channels and preprocessed for P300 classification. The study demonstrates that attended instruments in complex musical stimuli can be reliably decoded from ongoing EEG activity with 91% accuracy, establishing polyphonic music as a novel and ecologically valid stimulus modality for auditory BCI research.",
-  "methods_description": "EEG was recorded from 64 active electrodes (10-10 montage, Brain Products actiCAP) at 1000 Hz with left mastoid reference. Participants listened to 40-second polyphonic music clips containing three concurrent instruments (Synth-Pop or Jazz conditions) with embedded standard and deviant patterns. Participants were cued to attend to one instrument and count deviants. Data were downsampled to 250 Hz, lowpass filtered (Chebyshev, 42 Hz passband), epoched from -200 to 1200 ms, baseline corrected, and artifact rejected using min-max criterion (100 μV threshold on Fp1/Fp2). Classification employed LDA with shrinkage covariance on spatio-temporal features using leave-one-clip-out cross-validation.",
+  "description": "This dataset comprises EEG recordings from 11 healthy participants performing a multi-streamed musical oddball task designed to investigate auditory attention and brain-computer interface applications. Participants selectively attended to one of three concurrent instruments in polyphonic music clips while detecting deviant patterns, with EEG signals recorded at 64 channels and preprocessed to 250 Hz sampling rate. The study demonstrates that attended instrument selection can be classified from ongoing EEG with 91% mean accuracy using linear discriminant analysis, establishing proof-of-concept for music-based brain-computer interfaces.",
+  "methods_description": "EEG data were acquired from 64 active electrodes (10-10 montage, Brain Products actiCAP) at 1000 Hz with left mastoid reference and forehead ground. Online bandpass filtering (0.016-250 Hz) was applied. Preprocessing included downsampling to 250 Hz, Chebyshev lowpass filtering (42 Hz passband, 49 Hz stopband), epoching (-200 to 1200 ms relative to stimulus), baseline correction, and artifact rejection using min-max criterion (100 μV threshold on Fp1/Fp2). Classification employed linear discriminant analysis with shrinkage covariance on spatio-temporal features extracted from three time intervals across 63 electrodes, evaluated using leave-one-clip-out cross-validation.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,7 +15,10 @@
   },
   "keywords": [
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "EEG"
@@ -24,16 +27,16 @@
       "term": "auditory attention"
     },
     {
-      "term": "P300"
-    },
-    {
       "term": "oddball paradigm"
     },
     {
-      "term": "music perception"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "selective attention"
+      "term": "music perception"
     }
   ],
   "related_identifiers": [
@@ -80,5 +83,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d5c202445377a359a35e2a479ef1ca7216da25e8e162f4209d45ace45ba4ef9c"
+  "source_hash": "ae78ab46c9d502e7807d5383c3114f7382101e0049cbb63900ee01ccd93de8a4"
 }
