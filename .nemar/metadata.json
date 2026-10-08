@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-006 Music BCI dataset",
-  "description": "EEG recordings from 11 healthy participants performing a multi-streamed musical oddball task with polyphonic music clips (Synth-Pop and Jazz). Participants selectively attended to one of three concurrent instruments and counted its deviant patterns while ignoring the others. The data support research on auditory brain-computer interfaces, showing that attended instruments can be classified offline from single-trial EEG (P300 and early auditory responses) with a mean accuracy of 91%.",
-  "methods_description": "64-channel active-electrode EEG (Brain Products actiCAP, 10-10 montage, left mastoid reference) was recorded at 1000 Hz while participants listened to 40-second polyphonic music clips and attended to a cued instrument. Data were downsampled, low-pass filtered (Chebyshev, 42 Hz), epoched (-200 to 1200 ms), baseline corrected and artifact rejected. Classification used LDA with shrinkage covariance and leave-one-clip-out cross-validation.",
+  "description": "EEG recordings from 11 healthy participants performing a multi-streamed auditory oddball task with polyphonic music. Participants selectively attended to one of three concurrent instruments (Synth-Pop or Jazz clips) and counted deviant patterns. ERP analyses show subject- and instrument-specific responses including P300 and early auditory components. The attended instrument could be classified offline with a mean accuracy of 91%, supporting polyphonic music as a stimulus for auditory brain–computer interfaces.",
+  "methods_description": "64-channel active-electrode EEG (Brain Products actiCAP, left mastoid reference) was recorded at 1000 Hz while participants listened to 40-second polyphonic music clips and attended to a cued instrument. Data were downsampled, low-pass filtered (Chebyshev, 42 Hz), epoched (-200 to 1200 ms), baseline corrected and artifact rejected. Classification used LDA with shrinkage covariance and leave-one-clip-out cross-validation.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,27 +15,35 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "auditory attention"
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
     },
     {
-      "term": "music"
+      "term": "Music",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009146"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
       "term": "P300"
     },
     {
       "term": "oddball paradigm"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     }
   ],
   "related_identifiers": [
@@ -82,5 +90,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "ae78ab46c9d502e7807d5383c3114f7382101e0049cbb63900ee01ccd93de8a4"
+  "source_hash": "d1a1b3f1b38d2e022517eea60947fa5824b0936224346cbd632c3cc780c5029f"
 }
